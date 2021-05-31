@@ -2,3 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Broken Pieces"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+[params]
+    custom_css = ["css/custom.css"]

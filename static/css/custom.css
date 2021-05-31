@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {    
+    font-family: "Indubitably NF";    
+    src: url("/fonts/IndubitablyNF.ttf") format("truetype"),    
+         url("/fonts/IndubitablyNF.otf") format("opentype"),    
+         url("/fonts/IndubitablyNF.woff") format("woff"),    
+         url("/fonts/IndubitablyNF.woff2") format("woff2");    
+}
+
+.indubitably-nf {
+    font-family: "Indubitably NF",
+        serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Indubitably NF",    
+        serif;
+}
