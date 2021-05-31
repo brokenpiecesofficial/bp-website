@@ -1,0 +1,3 @@
+# Hugo builds to this dir
+# We might not need to ignore this at some point in the future, but for now, we do
+public
