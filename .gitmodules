@@ -1,0 +1,3 @@
+[submodule "content"]
+	path = content
+	url = git@github.com:NaCl10/bp-website-content.git
