@@ -13,3 +13,6 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
     mainSections = ["news"]
 
     instagram = "https://www.instagram.com/broken_piecesofficial1/"
+    github = "https://github.com/brokenpiecesofficial/"
+    twitter = "https://twitter.com/BrokenPiecesKC"
+    youtube = "https://www.youtube.com/channel/UChceKMfccC_X_sOUBpblSQg"
