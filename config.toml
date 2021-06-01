@@ -6,4 +6,5 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 [params]
     site_logo = "/img/brokenpieces-logo-transparent.webp"
 
+    # Custom CSS for fonts
     custom_css = ["css/custom.css"]
