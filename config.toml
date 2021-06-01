@@ -8,3 +8,6 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
     # Custom CSS for fonts
     custom_css = ["css/custom.css"]
+
+    # Make sure that only news gets displayed on the front page, not music and lyrics and the blog
+    mainSections = ["news"]
