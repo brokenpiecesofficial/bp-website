@@ -11,3 +11,5 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
     # Make sure that only news gets displayed on the front page, not music and lyrics and the blog
     mainSections = ["news"]
+
+    instagram = "https://www.instagram.com/broken_piecesofficial1/"
