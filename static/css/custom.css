@@ -19,6 +19,6 @@ h3,
 h4,
 h5,
 h6{
-    font-family: "Indubitably NF",    
-        serif;
+    /* Yeah, !important is bad practice, but it's either that or go in and try to modify the theme's stylesheet to get the headings in posts to render in this font. */
+    font-family: "Indubitably NF", serif !important;
 }
