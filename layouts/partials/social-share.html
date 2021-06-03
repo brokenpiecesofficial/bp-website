@@ -10,6 +10,8 @@
     {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
     <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook" target="_blank" rel="noopener">
       {{ partialCached "svg/facebook.svg" (dict "size" $icon_size) $icon_size }}
+      <!--Not using the new-window-icon.html paratial here because it breaks shit-->
+      {{ partial "svg/new-window.svg" (dict "size" "8px") }}
     </a>
 
     {{ $twitter_href := printf "https://twitter.com/share?url=%s&text=%s" $url $title }}
@@ -18,6 +20,8 @@
     {{ end }}
     <a href="{{ $twitter_href }}" class="twitter no-underline" aria-label="share on Twitter" target="_blank" rel="noopener">
       {{ partialCached "svg/twitter.svg" (dict "size" $icon_size) $icon_size }}
+      <!--Same as above-->
+      {{ partial "svg/new-window.svg" (dict "size" "8px") }}
     </a>
 
     {{/*    {{ $linkedin_href := printf "https://www.linkedin.com/shareArticle?mini=true&url=%s&title=%s" $url $title }}
