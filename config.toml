@@ -16,3 +16,9 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
     github = "https://github.com/brokenpiecesofficial/"
     twitter = "https://twitter.com/BrokenPiecesKC"
     youtube = "https://www.youtube.com/channel/UChceKMfccC_X_sOUBpblSQg"
+
+[privacy]
+    [privacy.twitter]
+        enableDNT = true
+    [privacy.youtube]
+        privacyEnhanced = true
