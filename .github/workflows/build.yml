@@ -17,15 +17,11 @@ jobs:
     - uses: actions/checkout@master
     - name: Build
       uses: jakejarvis/hugo-build-action@master
-    - name: Deploy with SFTP
-      uses: SamKirkland/FTP-Deploy-Action@master
+    - name: SFTP Deploy
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.1
       with:
-        # Literally just using a secret for this first one so I can change it without having to commit again
-        server: ${{ secrets.FTP_URL }}
         username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASS }}
-        local-dir: ./public/
-        server-dir: ${{ secrets.SERVER_DIR }}
-        # By default, this action will create the state file in the local-dir (./public/). This is an issue because the previous action creates that folder, and its permissions are set to root:root 755, which this action can't access. This forces this action to create the state file in the root of the repo, where it has permission to do so.
-        # THIS IS A WORKAROUND AND POSSIBLY A HACK, but it works. There's an issue for it upstream (https://github.com/SamKirkland/FTP-Deploy-Action/issues/146), and it'll probably eventually be resolved, but for now, this works.
-        state-name: ../.ftp-deploy-sync-state.json
+        server: ${{ secrets.FTP_URL }}
+        ssh_private_key: ${{ secrets.FTP_KEY }}
+        local_path: ./public/
+        remote_path: ${{ secrets.SERVER_DIR }}
