@@ -26,4 +26,4 @@ jobs:
         password: ${{ secrets.FTP_PASS }}
         local-dir: ./public/
         server-dir: ${{ secrets.SERVER_DIR }}
-        log-level: standard
+        log-level: verbose
