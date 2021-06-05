@@ -6,6 +6,7 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 [params]
     site_logo = "/img/brokenpieces-logo-transparent.webp"
 
+    # Make the image that appears when some sites show info about a page the logo for every page
     images = ["/img/brokenpieces-logo-transparent.webp"]
 
     # Custom CSS for fonts
@@ -14,10 +15,17 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
     # Make sure that only news gets displayed on the front page, not music and lyrics and the blog
     mainSections = ["news"]
 
+    # Social links (show up in header and footer):
     instagram = "https://www.instagram.com/broken_piecesofficial1/"
     github = "https://github.com/brokenpiecesofficial/"
     twitter = "https://twitter.com/BrokenPiecesKC"
     youtube = "https://www.youtube.com/channel/UChceKMfccC_X_sOUBpblSQg"
+
+[[menu.main]]
+    identifier = "listen"
+    name = "Listen to us!"
+    url = "https://soundcloud.com/user-500281291"
+    weight = 1
 
 [privacy]
     [privacy.twitter]
