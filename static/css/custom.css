@@ -22,3 +22,8 @@ h6{
     /* Yeah, !important is bad practice, but it's either that or go in and try to modify the theme's stylesheet to get the headings in posts to render in this font. */
     font-family: "Indubitably NF", serif !important;
 }
+
+/* FOR SOME FUCKING REASON, the Ananke theme puts 16 rems of padding on the bottom of the <main> element by default */
+main {
+    padding-bottom: 0rem !important;
+}
