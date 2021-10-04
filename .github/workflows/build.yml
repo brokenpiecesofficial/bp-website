@@ -2,10 +2,10 @@ name: Build and push to production
 
 on:
   # Run on tag/branch creation
-  create:
+  #create:
   
-  schedule:
-   - cron: "0 0 * * *"
+  #schedule:
+  # - cron: "0 0 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
