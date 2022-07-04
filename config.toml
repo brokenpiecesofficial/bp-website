@@ -16,7 +16,7 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
     mainSections = ["news"]
 
     # Social links (show up in header and footer):
-    instagram = "https://www.instagram.com/broken_piecesofficial1/"
+    instagram = "https://www.instagram.com/brokenpieces_official/"
     github = "https://github.com/brokenpiecesofficial/"
     twitter = "https://twitter.com/BrokenPiecesKC"
     youtube = "https://www.youtube.com/channel/UChceKMfccC_X_sOUBpblSQg"
@@ -24,7 +24,7 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 [[menu.main]]
     identifier = "listen"
     name = "Listen to us!"
-    url = "https://soundcloud.com/user-500281291"
+    url = "https://soundcloud.com/brokenpieces_official"
     weight = 1
 
 [privacy]

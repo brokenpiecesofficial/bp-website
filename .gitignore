@@ -1,3 +1,6 @@
 # Hugo builds to this dir
 # We might not need to ignore this at some point in the future, but for now, we do
 public
+
+# Hugo creates this file while it's building so you can't accidentally build the same site in two different places at the same time
+.hugo_build.lock
