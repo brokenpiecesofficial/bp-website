@@ -25,7 +25,7 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 [[menu.main]]
     identifier = "listen"
     name = "Listen to us!"
-    url = "https://soundcloud.com/brokenpieces_official"
+    url = "https://distrokid.com/hyperfollow/brokenpieces/spread-your-wings/"
     weight = 1
 
 [privacy]
